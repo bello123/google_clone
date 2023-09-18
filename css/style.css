@@ -63,14 +63,14 @@ main {
     width: 600px;
     height: 500px;
     margin: auto;
-    margin-top: 90px;
+    margin-top: 50px;
     padding: 20px;
     text-align: center;
 }
 
 .logo {
     width: 70%;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .input_box {
@@ -135,7 +135,7 @@ main {
 section {
     display: flex;
     justify-content: center;
-    /* margin: 30px 10px; */
+    margin: 30px 10px;
     font-weight: 700;
 }
 
@@ -144,7 +144,7 @@ section button {
     height: 38px;
     background-color: #f0f0f0;
     color: #757677;
-    font-size: 19px;
+    font-size: 14px;
     font-weight: 400;
     margin: 0px 15px;
     border-radius: 3px;
@@ -153,6 +153,12 @@ section button {
 
 section button:hover {
     border: 2px solid rgba(93, 91, 92, 0.5);
+}
+
+.language_Selection a,
+.language_Selection span {
+    font-size: 13px;
+    font-weight: 400px;
 }
 
 footer {
